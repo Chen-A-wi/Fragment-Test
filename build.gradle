@@ -10,6 +10,7 @@ buildscript {
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.0.0-alpha08"
+        classpath 'com.uber:okbuck:0.50.3'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -28,3 +29,5 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+apply plugin: 'com.uber.okbuck'

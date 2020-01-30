@@ -1,7 +1,7 @@
 package com.example.fragmenttest
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.fragmenttest.utils.replaceFragment
 import kotlinx.android.synthetic.main.activity_main.*
 
